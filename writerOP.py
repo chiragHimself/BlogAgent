@@ -10,7 +10,7 @@ load_dotenv()
 # Set API key environment variable
 os.environ["OPENAI_API_KEY"] = "NA"
 #tracing with langsmith
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
+
 
 # Initialize LLM
 llm = ChatGoogleGenerativeAI(
